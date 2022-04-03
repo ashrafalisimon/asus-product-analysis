@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Logo from '../../images/asus-Logo.png';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { MenuIcon, XIcon } from '@heroicons/react/solid';
 
 const Navbar = () => {
@@ -14,12 +14,13 @@ const Navbar = () => {
                 <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
                 {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
                  </div>
-                <ul className={`md:flex justify-center absolute md:static bg-green-200 w-2/6 duration-500 ease-in ${open ? 'right-0 top-12': 'right-[-200px] right-0'}`}>
-                    <li><Link className='lg:mr-4' to='/'>HOME</Link></li>
-                    <li><Link className='lg:mr-4' to='/reviews'>REVIEWS</Link></li>
-                    <li><Link className='lg:mr-4' to='/dashboard'>DASHBOARD</Link></li>
-                    <li> <Link className='lg:mr-4' to='/blog'>BLOG</Link></li>
-                    <li><Link className='lg:mr-4' to='/about'>ABOUT</Link></li>
+                <ul className={`md:flex justify-center absolute md:static bg-green-200 w-2/6 duration-500 ease-in ${open ? 'right-0 top-12': 'top-[-500px] right-0'}`}>
+                    <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")}
+                     to='/'>HOME</NavLink></li>
+                    <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")} to='/reviews'>REVIEWS</NavLink></li>
+                    <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")} to='/dashboard'>DASHBOARD</NavLink></li>
+                    <li> <NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")} to='/blog'>BLOG</NavLink></li>
+                    <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold p-2" : "p-2")} to='/about'>ABOUT</NavLink></li>
                 </ul>
             </div>
         </div>

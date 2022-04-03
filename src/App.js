@@ -9,11 +9,10 @@ import About from './components/About/About';
 
 function App() {
   return (
-    <div>
+    <div className='bg-gray-100'>
       <div className='bg-green-200'>
         <Navbar></Navbar>
       </div>
-      
       <Routes>
         <Route path='/' element={<Header></Header>}></Route>
         <Route path='/reviews' element={<Reviews></Reviews>}></Route>
