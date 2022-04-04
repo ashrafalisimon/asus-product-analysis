@@ -1,6 +1,6 @@
 # Asus TuF Gaming Review
 
-Live Site Link [Netlify](https://asus-tuf-graming.netlify.app/).
+## Live Site Link [Netlify](https://asus-tuf-graming.netlify.app/).
 
 * Responsive Navbar Design
 * Banner Section
