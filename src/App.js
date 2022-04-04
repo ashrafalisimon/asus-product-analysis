@@ -10,8 +10,8 @@ import NotFoundpage from './components/404page/NotFoundpage';
 
 function App() {
   return (
-    <div className='bg-gray-100'>
-      <div className='bg-green-200'>
+    <div >
+      <div className='bg-green-300 drop-shadow-md '>
         <Navbar></Navbar>
       </div>
       <Routes>

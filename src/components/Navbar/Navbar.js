@@ -10,11 +10,11 @@ const Navbar = () => {
             <div className="logo">
                 <img src={Logo} alt="not-found" />
             </div>
-              <div className="main-menu bg-green-200 ">
+              <div className="main-menu bg-green-300 ">
                 <div onClick={() => setOpen(!open)} className='w-6 h-6 md:hidden'>
                 {open ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
                  </div>
-                <ul className={`md:flex justify-center absolute md:static bg-green-200 w-2/6 duration-500 ease-in ${open ? 'right-0 top-12': 'top-[-500px] right-0'}`}>
+                <ul className={`md:flex justify-center absolute md:static bg-green-300 w-2/6 duration-500 ease-in ${open ? 'right-0 top-12': 'top-[-500px] right-0'}`}>
                     <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")}
                      to='/'>HOME</NavLink></li>
                     <li><NavLink className= {({ isActive }) => (isActive ? "text-green-900 font-bold md:mr-2 lg:mr-4 p-2" : "md:mr-2 lg:mr-4 p-2")} to='/reviews'>REVIEWS</NavLink></li>

@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Asus TuF Gaming Review
+
+Live Site Link [Netlify](https://asus-tuf-graming.netlify.app/).
+
+* Responsive Navbar Design
+* Banner Section
+* Product Review 6 items
+* Deshboard page 2 Recharts
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -6,7 +6,7 @@ import ReviewDetalis from '../ReviewDetalis/ReviewDetalis';
 const Header = () => {
     const [review, setReview] = useReview();
     return (
-      <section>
+      <section className='bg-green-100'>
             <div className='w-full mx-auto md:grid grid-cols-2 md:p-12'>
             <div className="header-content xl:pl-16 ">
                 <h1 className='text-6xl font-bold uppercase text-black-700 py-4'>Asus Tuf Gaming F15</h1>
