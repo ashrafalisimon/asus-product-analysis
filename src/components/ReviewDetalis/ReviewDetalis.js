@@ -3,7 +3,7 @@ import React from 'react';
 const ReviewDetalis = ({reviewdetalis}) => {
     const {name, picture, rating, reviews} = reviewdetalis;
     return (
-        <div className='py-12 px-8 bg-white rounded-xl '>
+        <div className='py-12 px-8 bg-white rounded-xl mb-4  '>
             <div>
                 <div>
                     <img className='w-32 h-32 mx-auto rounded-full' src={picture} alt="" />

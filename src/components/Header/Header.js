@@ -19,7 +19,7 @@ const Header = () => {
            
         </div>
           <div className='w-10/12 mx-auto pt-12'>
-              <h2 className='tex-3xl font-bold text-center py-12'>Review Section</h2>
+              <h2 className='text-3xl font-bold text-center py-12'>Review Section</h2>
             <div className="review-item w-full mx-auto md:grid grid-cols-3 gap-x-5">
                 {
                     review.slice(0,3).map(reviewdetalis => <ReviewDetalis key={reviewdetalis.id}
