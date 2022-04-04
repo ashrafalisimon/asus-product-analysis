@@ -1,0 +1,45 @@
+[
+    {
+      "id": "001",
+      "reviews": "wordPress.com works really well with Google for a great SEO ranking. I can also embed Youtube videos, Google Maps, and other content easily and without any coding ability.",
+      "name": "Quintin Lake",
+      "rating": "4.2",
+      "picture": "https://img.freepik.com/free-photo/serious-handsome-young-man-using-smartphone_1262-5534.jpg"
+    },
+    {
+        "id": "002",
+        "reviews": "Normally, the higher the price (or the more crucial to your well-being a given product is), the harder you strive to make sure your choice is the only right decision. To feel confident about the purchase, you look for solid proof of the product’s quality.",
+        "name": "Adam L. Bedwell",
+        "rating": "4.0",
+        "picture": "https://img.freepik.com/free-photo/medium-shot-happy-man-smiling_23-2148221808.jpg"
+      },
+      {
+        "id": "003",
+        "reviews": "We all love a good story—and that’s probably clear in the review types that we’ve listed so far. Customers want to see themselves in the people your company has already helped; they want to know what your customer experience is like. One way to do this is through customer stories and interviews.",
+        "name": "Nicole J. Green",
+        "rating": "4.4",
+        "picture": "https://img.freepik.com/free-photo/close-up-young-man-looking-camera-against-grey-wall_23-2148130316.jpg"
+      },
+      {
+        "id": "004",
+        "reviews": "they get an opportunity to showcase how diverse their client pool is. But it gives customers an opportunity to connect with each other too. Similar to case studies, stories and interviews paint a larger picture of what the customer is hoping to accomplish—only you have to be less self-centered here and make sure your customer is the star of the story. ",
+        "name": "Bryan S. Taylor",
+        "rating": "4.1",
+        "picture": "https://img.freepik.com/free-photo/business-woman-sitting-with-coffee-cup-laptop_23-2148095734.jpg"
+      },
+      {
+        "id": "005",
+        "reviews": "wr've been able to bulid something in 3 years that a lot of brands haven't actually gotten to in 10 year",
+        "name": "Naoma W. Ellis",
+        "rating": "4.2",
+        "picture": "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
+      },
+      {
+        "id": "006",
+        "reviews": ", you may not need to drop everything you’re doing to respond, but it’s more important to get to negative reviews quickly than positive reviews. If a negative review is posted for too long without a response, not only is it frustrating for the unhappy customer, but it can also leave a bad taste in prospective customers’ mouths. Do your best to get to negative responses in just a few hours.",
+        "name": "Vickie J. Boon",
+        "rating": "4.3",
+        "picture": "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg"
+      }
+    
+  ]
